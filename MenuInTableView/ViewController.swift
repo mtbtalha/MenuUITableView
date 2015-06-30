@@ -29,11 +29,6 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        var number : Int?
-        
-        var number2 = number ?? 5
-        
         tableView.dataSource = self
         tableView.delegate = self
         
